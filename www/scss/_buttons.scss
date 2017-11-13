@@ -1,0 +1,80 @@
+@import 'variables';
+@import 'colors';
+@import 'typography';
+
+.btn {
+  font-family: $proxima;
+  font-size: 14px;
+  line-height: 38px;
+
+  text-decoration: none;
+  padding: $btn-padding;
+
+  &-small {
+    padding: $btn-padding--small;
+    line-height: 28px;
+  }
+
+  &-large {
+    padding: $btn-padding--large;
+    line-height: 53px;
+  }
+
+  &-disabled {
+    color: $disabled-color;
+    background-color: $default-bg;
+    border: 1px solid $mercury;
+
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+
+  &-default {
+    color: $default-color;
+    background-color: $default-bg;
+    border: 1px solid $mercury;
+
+    &:hover {
+      background-color: $default--hover;
+      border-color: $silver;
+    }
+  }
+
+  &-primary {
+    color: $primary-color;
+    background-color: $primary-bg;
+    border: 1px solid $transparent;
+
+    &:hover {
+      background-color: $primary--hover;
+      border-color: $transparent;
+    }
+  }
+
+  &-secondary {
+    color: $secondary-color;
+    background-color: $secondary-bg;
+    border: 1px solid $transparent;
+
+    &:hover {
+      background-color: $secondary--hover;
+      border-color: $transparent;
+    }
+  }
+
+  &-danger {
+    color: $danger-color;
+    background-color: $danger-bg;
+    border: 1px solid $transparent;
+
+    &:hover {
+      background-color: $danger--hover;
+      border-color: $transparent;
+    }
+  }
+}
+
+.btn-group {
+  display: inline-flex;
+}

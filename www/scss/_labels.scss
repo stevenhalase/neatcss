@@ -1,0 +1,28 @@
+@import 'colors';
+@import 'typography';
+
+.label {
+  font-family: $proxima;
+  display: inline-block;
+  padding: 0 10px;
+  background-color: $primary;
+  line-height: 1.5;
+  font-size: 12px;
+  color: $white;
+  vertical-align: middle;
+  white-space: nowrap;
+  border-radius: 2px;
+  text-transform: uppercase;
+
+  &-success {
+    background-color: $success;
+  }
+
+  &-warning {
+    background-color: $warning;
+  }
+
+  &-danger {
+    background-color: $danger;
+  }
+}

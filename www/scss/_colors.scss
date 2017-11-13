@@ -1,0 +1,38 @@
+$white : #FFF;
+$black : #000;
+$dustygray : #999;
+$mineshaft : #222;
+$mercury : #e5e5e5;
+$silver : #b2b2b2;
+$codgray : #151515;
+$dodger : #1e87f0;
+$azure : #0f7ae5;
+$shamrock : #32d296;
+$tanhide : #faa05a;
+$frenchrose: #f0506e;
+$amaranth: #ee395b;
+$transparent : transparent;
+
+$primary : $dodger;
+$success : $shamrock;
+$warning : $tanhide;
+$danger : $frenchrose;
+
+$default--hover : $white;
+$primary--hover : $azure;
+$secondary--hover : $codgray;
+$danger--hover : $amaranth;
+
+$disabled-color : $dustygray;
+
+$default-color : $mineshaft;
+$default-bg: $white;
+
+$primary-color : $white;
+$primary-bg: $primary;
+
+$secondary-color : $white;
+$secondary-bg: $mineshaft;
+
+$danger-color : $white;
+$danger-bg: $danger;
